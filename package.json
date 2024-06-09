@@ -1,0 +1,20 @@
+{
+  "name": "popcornpicks",
+  "version": "1.0.0",
+  "description": "A web app for choosing your favorite movie posters.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'Skipping build step as no build step is necessary for this project'"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git"
+  }
+}
