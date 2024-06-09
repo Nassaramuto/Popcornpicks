@@ -1,0 +1,67 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: url('images/Collage.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#app {
+  margin: 20px;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #FFD700;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px #000;
+}
+
+#posters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.poster {
+  margin: 10px;
+  position: relative;
+}
+
+.poster img {
+  width: 100%;
+  max-width: 300px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.poster:hover img {
+  border-color: #FFD700;
+}
+
+.coin {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url('https://example.com/coin.png') no-repeat center center / contain;
+  animation: moveCoin 1s forwards;
+}
+
+@keyframes moveCoin {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100px) scale(0.5);
+  }
+}
